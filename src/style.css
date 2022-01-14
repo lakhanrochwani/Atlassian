@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.status {
+  display: flex;
+  position: relative;
+}
+.options {
+  position: absolute;
+  right: 20px;
+  top: 25px;
+}
